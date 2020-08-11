@@ -1,4 +1,4 @@
-import QtQuick 2.14
+﻿import QtQuick 2.14
 
 Item {
     id: home
@@ -29,8 +29,8 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             text: qsTr("For You")
             font.pixelSize: 28
-            font.family: "microsoft yahei"
-            //font.weight: Font.Medium
+            font.family: "Source Han Sans CN"
+            font.weight: Font.Medium
             font.bold: true
             color: "#4E4B6F"
             horizontalAlignment: Text.AlignHCenter
@@ -60,9 +60,9 @@ Item {
             width: 260
             height: 36
             text: qsTr("Malena Veronica, 23")
-            font.family: "microsoft yahei"
-            //font.weight: Font.Medium
-            font.bold: true
+            font.family: "Source Han Sans CN"
+            font.weight: Font.Medium
+            //font.bold: true
             font.pixelSize: 24
             color: "#16123D"
         }
@@ -74,31 +74,43 @@ Item {
             width: 280
             height: 24
             text: qsTr("Fashion Designer at Victoria's Secret")
-            font.family: "microsoft yahei"
-            //font.weight: Font.Medium
+            font.family: "Source Han Sans CN"
+            font.weight: Font.Light
             //font.bold: true
             font.pixelSize: 16
             color: "#4E4B6F"
         }
+        Text {text: qsTr("text"); opacity: 0}
     }
     Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: img.bottom
-        anchors.topMargin: 40
-        width: 248
+        anchors.topMargin: 30
+        width: 268
         height: 64
         color: "transparent"
         BigBtn {
+            width: 74
+            height: 74
             anchors.left: parent.left
             source: "assets/Vector1.svg"
         }
         BigBtn {
+            width: 64
+            height: 64
+            rectHeight: 56
+            rectWidth: 56
             anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: parent.top
+            anchors.topMargin: 5
             source: "assets/Vector.svg"
         }
         BigBtn {
+            width: 74
+            height: 74
             anchors.right: parent.right
             source: "assets/Vector2.svg"
         }
     }
+
 }
