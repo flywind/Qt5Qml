@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>logo.svg</file>
+        <file>HomePage.qml</file>
+        <file>SmallBtn.qml</file>
+        <file>assets/arrowleft.svg</file>
+        <file>assets/Frame43.svg</file>
+        <file>assets/gridicons_user.svg</file>
+        <file>assets/john_wick_chapter_three_ver2.png</file>
+        <file>assets/more-vertical.svg</file>
+        <file>assets/Untitled11.png</file>
+        <file>assets/Vector.svg</file>
+        <file>assets/Vector1.svg</file>
+        <file>assets/Vector2.svg</file>
+        <file>assets/Rectangle8.svg</file>
+        <file>BigBtn.qml</file>
+        <file>ProfilePage.qml</file>
+        <file>ColorLabel.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>image.svg</file>
+        <file>Vector.svg</file>
+        <file>image.png</file>
+        <file>GlowingLabel.qml</file>
+    </qresource>
+</RCC>
