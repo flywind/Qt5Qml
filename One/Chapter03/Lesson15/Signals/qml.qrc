@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MButton.qml</file>
+        <file>car.png</file>
+        <file>MText.qml</file>
+        <file>clear.svg</file>
+    </qresource>
+</RCC>
