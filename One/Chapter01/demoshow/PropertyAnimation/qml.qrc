@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>plus.svg</file>
+        <file>PlusMenu.qml</file>
+        <file>MenuButton.qml</file>
+        <file>db.svg</file>
+        <file>f.svg</file>
+        <file>twit.svg</file>
+        <file>wechat.svg</file>
+        <file>dblogo.svg</file>
+        <file>MoveArea.qml</file>
+    </qresource>
+</RCC>
