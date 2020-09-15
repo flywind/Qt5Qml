@@ -247,7 +247,7 @@ Window {
 
     Rectangle {
         anchors.top: item2.bottom
-        anchors.topMargin: 92
+        anchors.topMargin: 68
         anchors.horizontalCenter: parent.horizontalCenter
         width: 300
         height: 64
